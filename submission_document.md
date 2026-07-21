@@ -14,6 +14,15 @@
 
 ---
 
+## Demo Test Credentials
+
+| Account Role | Email Address | Password |
+|---|---|---|
+| **Administrator** (Full dynamic CRUD controls) | `harishamzaali@gmail.com` | `admin123` |
+| **Standard User** (Read-only session tools) | `alex@evaluator.ai` | `user123` |
+
+---
+
 ## Project Information
 
 ### Project Title
