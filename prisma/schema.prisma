@@ -1,0 +1,59 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id          String       @id @default(cuid())
+  name        String
+  email       String       @unique
+  password    String
+  role        String       @default("user")
+  createdAt   DateTime     @default(now())
+  comparisons Comparison[]
+}
+
+model Agent {
+  id            String       @id @default(cuid())
+  name          String
+  provider      String
+  category      String
+  description   String
+  rating        Float        @default(4.5)
+  perfScore     Float        @default(90.0)
+  pricing       Float        @default(0.01)
+  contextWindow Int          @default(128000)
+  latency       Int          @default(300)
+  successRate   Float        @default(99.0)
+  tokensPerSec  Int          @default(500)
+  icon          String       @default("robot_2")
+  tier          String       @default("standard")
+  createdAt     DateTime     @default(now())
+  updatedAt     DateTime     @updatedAt
+  requestLogs   RequestLog[]
+}
+
+model Comparison {
+  id        String   @id @default(cuid())
+  userId    String
+  agentIds  String   // stored as JSON string e.g. '["id1","id2"]'
+  name      String   @default("My Comparison")
+  createdAt DateTime @default(now())
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model RequestLog {
+  id        String   @id @default(cuid())
+  agentId   String?
+  endpoint  String
+  model     String
+  latency   Int
+  tokens    Int
+  status    String   // "success" | "timeout" | "error"
+  timestamp DateTime @default(now())
+  agent     Agent?   @relation(fields: [agentId], references: [id], onDelete: SetNull)
+}
