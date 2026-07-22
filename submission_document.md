@@ -97,19 +97,27 @@ The whole thing is authenticated, so every user has their own saved comparisons 
 ## Screenshots
 
 ### Login Page
-![Login Page Layout](/C:/Users/haris/.gemini/antigravity/brain/ad267b99-90ee-458e-b929-438bf50c7a0c/login_page_1784619418036.png)
+![Login Page Layout]<img width="1366" height="655" alt="Screenshot 2026-07-22 at 12-00-20 Evaluator AI — AI Agent Comparison Dashboard" src="https://github.com/user-attachments/assets/34ef2dfd-b08d-4b85-ba78-4e176ea6954e" />
+<img width="1366" height="655" alt="Screenshot 2026-07-22 at 12-00-13 Evaluator AI — AI Agent Comparison Dashboard" src="https://github.com/user-attachments/assets/5d0474ec-caf4-45ee-8cfd-19866dd01d5a" />
+
 
 ---
 
 ### Marketplace — Agent Grid & Filters
-![Marketplace Grid Views](/C:/Users/haris/.gemini/antigravity/brain/ad267b99-90ee-458e-b929-438bf50c7a0c/marketplace_page_1784619584843.png)
+![Marketplace Grid Views <img width="1349" height="2033" alt="Screenshot 2026-07-22 at 11-58-48 Evaluator AI — AI Agent Comparison Dashboard" src="https://github.com/user-attachments/assets/01a63d4f-fe86-4a57-94d8-c3935005f7c8" />
+
 
 ---
 
-### Verification Walkthrough Recording
-![System Run Recording](/C:/Users/haris/.gemini/antigravity/brain/ad267b99-90ee-458e-b929-438bf50c7a0c/agentos_app_verification_1784618242675.webp)
+### Comparison
+<img width="1349" height="2027" alt="Screenshot 2026-07-22 at 11-59-14 Evaluator AI — AI Agent Comparison Dashboard" src="https://github.com/user-attachments/assets/aedbe766-795e-4d75-b8e7-2a54c8aaca41" />
 
----
+### Performance
+---<img width="1349" height="2171" alt="Screenshot 2026-07-22 at 11-59-30 Evaluator AI — AI Agent Comparison Dashboard" src="https://github.com/user-attachments/assets/c467ac96-40f1-409e-b41e-e609098a92c3" />
+
+### Integrations
+<img width="1349" height="1302" alt="Screenshot 2026-07-22 at 11-59-39 Evaluator AI — AI Agent Comparison Dashboard" src="https://github.com/user-attachments/assets/0f50fe04-0bf7-44ee-b02c-df5a2c55f278" />
+
 
 ## Challenges & Learnings
 
