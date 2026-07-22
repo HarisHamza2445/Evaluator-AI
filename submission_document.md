@@ -89,7 +89,7 @@ The whole thing is authenticated, so every user has their own saved comparisons 
 | | |
 |---|---|
 | **GitHub Repository** | [github.com/HarisHamza2445/Evaluator-AI](https://github.com/HarisHamza2445/Evaluator-AI) |
-| **Live Demo** | [evaluator-ai-dashboard.vercel.app](https://evaluator-ai-dashboard.vercel.app) |
+| **Live Demo** | [evaluator-ai-dashboard.vercel.app](https://evaluator-ai-umber.vercel.app/) |
 | **Demo Video** | [Watch on Google Drive](https://drive.google.com/file/d/1wEZFxWeB6C5javkPDiwhu7QLnMWp81AD/view?usp=sharing) |
 
 ---
